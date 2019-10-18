@@ -6,7 +6,7 @@ xcode-select --install
 
 ##GIT
 git config --global user.name "bipulkkuri"
-git config --global user.email "bipul.k.kuri@gmail.com"
+git config --global user.email "3050036+bipulkkuri@users.noreply.github.com"
 git config --global color.ui true
 
 ### set vim plugin ###
