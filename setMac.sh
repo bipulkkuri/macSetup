@@ -89,9 +89,11 @@ brews=(
   neofetch
   nmap
   pv
+  pidof
   osquery
   shellcheck
   stormssh
+  sqlmap
   tmux
   tree
   wget
