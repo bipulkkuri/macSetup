@@ -1,7 +1,10 @@
 
 alias path='echo -e ${PATH//:/\\n}'
 alias copy_ssh="pbcopy < $HOME/.ssh/id_rsa.pub"
-alias ip='dig +short myip.opendns.com @resolver1.opendns.com'
+alias ipe='dig +short myip.opendns.com @resolver1.opendns.com'
 alias wip="git add .;git commit -m 'work in progress'"
 alias cdocker="docker system prune -f;docker container prune -f;docker image prune -f ;docker network prune -f;docker container stop $(docker container ls -aq);docker container rm $(docker container ls -aq)"
 alias ldocker="echo 'DOCKER CONTAINERS';docker container ls -a;echo 'DOCKER IMAGES';docker image ls;echo 'DOCKER NETWORK';docker network ls"
+alias ipi='ipconfig getifaddr en0'
+alias svim='sudo vim'
+alias update='brew cleanup; brew upgrade; brew update'
