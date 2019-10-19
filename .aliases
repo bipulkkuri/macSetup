@@ -6,8 +6,8 @@ ias ipe='dig +short myip.opendns.com @resolver1.opendns.com'
 alias ipi='ipconfig getifaddr en0'
 
 # GIT
-alias gwip="git add .;git commit -m 'work in progress'"
-alias gic="git add .;git commit -m 'Initial Checkin'"
+alias gwip="git add .;git commit -m 'work in progress'; git status"
+alias gic="git add .;git commit -m 'Initial Checkin';git status"
 alias gamend="git commit --amend --reuse-message=HEAD"
 # DOCKER
 alias cdocker="docker system prune -f;docker container prune -f;docker image prune -f ;docker network prune -f;docker container stop $(docker container ls -aq);docker container rm $(docker container ls -aq)"
