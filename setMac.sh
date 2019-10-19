@@ -90,7 +90,6 @@ brews=(
   nmap
   pv
   pidof
-  osquery
   shellcheck
   stormssh
   sqlmap
