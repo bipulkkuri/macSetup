@@ -88,6 +88,7 @@ brews=(
   ncdu
   neofetch
   nmap
+  openssh
   pv
   pidof
   shellcheck
@@ -105,6 +106,7 @@ install 'brew_install_or_upgrade' "${brews[@]}"
 
 
 echo "Cleaning up brew"
+brew upgrade brew
 brew cleanup
 
 #Setup the alias in HOME
