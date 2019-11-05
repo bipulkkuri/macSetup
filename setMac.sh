@@ -80,6 +80,7 @@ brews=(
   gpg
   htop
   httpie
+  homebrew/cask/java
   iftop
   m-cli
   mas
@@ -92,6 +93,7 @@ brews=(
   pv
   pidof
   shellcheck
+  sonar-scanner
   stormssh
   sqlmap
   tmux
