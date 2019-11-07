@@ -2,7 +2,9 @@
 alias path='echo -e ${PATH//:/\\n}'
 alias copy_ssh="pbcopy < $HOME/.ssh/id_rsa.pub"
 # IP addresses
-ias ipe='dig +short myip.opendns.com @resolver1.opendns.com'
+alias ipe='dig +short myip.opendns.com @resolver1.opendns.com'
+alias ipv4e='curl ifconfig.me'
+alias ipv6e='dig TXT +short o-o.myaddr.l.google.com @ns1.google.com'
 alias ipi='ipconfig getifaddr en0'
 
 # GIT
