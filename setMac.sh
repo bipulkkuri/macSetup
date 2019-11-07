@@ -90,6 +90,7 @@ brews=(
   neofetch
   nmap
   openssh
+  packer
   pv
   pidof
   shellcheck
@@ -126,4 +127,26 @@ if [ -f ~/.functions ]; then
 fi
 EOT
 
+
+cat <<EOFS >> ~/.vimrc
+
+" Display options
+set showmode
+
+" Turn on syntax highlighting.
+syntax on
+
+" Automatically wrap text that extends beyond the screen length.
+set wrap
+
+" Show line numbers
+set number
+
+
+" Color scheme (terminal)
+set t_Co=256
+set background=dark
+let g:solarized_termcolors=256
+let g:solarized_termtrans=1
+EOFS
 
