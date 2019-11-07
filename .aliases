@@ -15,7 +15,7 @@ alias guncommit="git reset --soft HEAD~1"
 
 
 # DOCKER
-alias cdocker="docker system prune -f;docker container prune -f;docker image prune -f ;docker network prune -f;docker container stop $(docker container ls -aq);docker container rm $(docker container ls -aq)"
+alias cdocker="docker container rm $(docker container ls -aq);docker system prune -f;docker container prune -f;docker image prune -f ;docker network prune -f;docker container stop $(docker container ls -aq)"
 alias ldocker="echo 'DOCKER CONTAINERS';docker container ls -a;echo 'DOCKER IMAGES';docker image ls;echo 'DOCKER NETWORK';docker network ls"
 
 alias svim='sudo vim'
