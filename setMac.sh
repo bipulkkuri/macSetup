@@ -86,6 +86,7 @@ brews=(
   mas
   moreutils
   mtr
+  mycli
   ncdu
   neofetch
   nmap
