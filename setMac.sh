@@ -8,6 +8,10 @@ xcode-select --install
 git config --global user.name "bipulkkuri"
 git config --global user.email "3050036+bipulkkuri@users.noreply.github.com"
 git config --global color.ui true
+#git pr 12
+git config --global --add alias.pr '!f() { git fetch -fu ${2:-upstream} refs/pull/$1/head:pr/$1 && git checkout pr/$1; }; f'
+git config --global --add alias.pr-clean '!git checkout master ; git for-each-ref refs/heads/pr/* --format="%(refname)" | while read ref ; do branch=${ref#refs/heads/} ; git branch -D $branch ; done'
+
 
 ### set vim plugin ###
 git clone https://github.com/amix/vimrc.git ~/.vim_runtime
