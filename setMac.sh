@@ -5,6 +5,7 @@ xcode-select --install
 
 
 ##GIT
+git config --global core.excludesfile ~/.gitignore
 git config --global user.name "bipulkkuri"
 git config --global user.email "3050036+bipulkkuri@users.noreply.github.com"
 git config --global color.ui true
