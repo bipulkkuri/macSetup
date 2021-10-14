@@ -98,6 +98,7 @@ brews=(
   openssh
   packer
   pv
+  python3
   pidof
   shellcheck
   sonar-scanner
