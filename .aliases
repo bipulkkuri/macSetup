@@ -25,3 +25,6 @@ alias update='brew cleanup; brew upgrade; brew update'
 alias grep='grep --color=auto'
 alias diff='colordiff'
 
+# Python
+#brew install python3;pip3 install virtualenv
+ alias setpython3='mkdir ~/environments;virtualenv -p python3 ~/environments;source ~/environments/bin/activate;python -V'
