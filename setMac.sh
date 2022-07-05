@@ -85,7 +85,7 @@ brews=(
   gpg
   htop
   httpie
-  homebrew/cask/java
+  openjdk
   iftop
   m-cli
   mas
